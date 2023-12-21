@@ -15,13 +15,10 @@ int main()
     cin >> y;
 
     cout << "\nInvalid\n" <<;
-
-    cout << "= " << Add2Values(x, y);
-
     return 0;
 }
 
 int Add2Values(int x, int y)
 {
-    // add codè here
+    cout << "= " << Add2Values(x, y) << x + y << endl;
 }
