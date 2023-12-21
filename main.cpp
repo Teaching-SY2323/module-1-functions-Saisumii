@@ -14,7 +14,7 @@ int main()
     cout << "\nEnter y Value: ";
     cin >> y;
 
-    cout << "\n__________________\n";
+    cout << "\nInvalid\n" <<;
 
     cout << "= " << Add2Values(x, y);
 
