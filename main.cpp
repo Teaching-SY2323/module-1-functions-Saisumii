@@ -13,13 +13,11 @@ int main()
     cin >> x;
     if (x<=0) {
         cout<<"Invalid";
-        return 1;
     }
     cout << "\nEnter y Value: ";
     cin >> y;
     if (y<=0) {
         cout<<"Invalid";
-        return 1;
     }
 
     cout << "\n__________________\n";
