@@ -2,7 +2,7 @@
 
 using namespace std;
 
-int Add2Values(int, int);
+int Add2Values(int x, int y);
 
 int main()
 {
@@ -14,11 +14,13 @@ int main()
     cout << "\nEnter y Value: ";
     cin >> y;
 
-    cout << "\nInvalid\n" <<;
+    cout << "\n__________________\n";
+
+    cout << "= " << Add2Values(x, y);
     return 0;
 }
 
 int Add2Values(int x, int y)
 {
-    cout << "= " << Add2Values(x, y) << x + y << endl;
+    return x + y;
 }
