@@ -2,11 +2,11 @@
 
 using namespace std;
 
-int Add2Values(int x, int y);
+double Add2Values(double x, double y);
 
 int main()
 {
-    int x, y;
+    double x, y;
     cout
         << "-- Add 2 Values --\n"
         << "Enter x Values: ";
@@ -26,7 +26,7 @@ int main()
     return 0;
 }
 
-int Add2Values(int x, int y)
+double Add2Values(double x, double y)
 {
     return x + y;
 }
